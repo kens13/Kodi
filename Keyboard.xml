@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  kens - version 2.01a FireTV Stick Remote Mod. for KODI with PVR.Stalker LiveTV/Video & for PVR.IPTV Simple Client with Couch Potato VOD   -->
+<!--  Button Ids:    -->
+<!--    3: left   (in fullscreen mode- returns to last ch.)  -->
+<!--    3: right  (in fullscreen mode- OSD)                                         -->
+<!--    3: up/down (in fullscreen mode- Channel Peek Up/Dn (Shows Channel List info. with On-screen Banner (press Select(4) to change Channel) -->
+<!--    4: Select / OK     -->
+<!--    6: menu  (in fullscreen mode- TV Ch. Numeric Keypad OnScreen Dialog)  -->
+<!--    7: FFwd. (in fullscreen mode- Vol. Up / In EPG- Scroll Page up) -->
+<!--    8: play/ pause (in fullscreen mode- Stop(End Stream)) -->
+<!--    9: Back/Return (in fullscreen mode- Brings up EPG or Channel List) -->
+<!--   10: Rwd. (in fullscreen mode- Vol. Down / In EPG- Scroll Page down) -->
+<keymap>
+ <FullscreenVideo>
+    <keyboard>
+      <rewind>VolumeDown</rewind>
+      <fastforward>VolumeUp</fastforward>
+	  <play_pause>Pause</play_pause>
+    </keyboard>
+  </FullscreenVideo>
+   <FullscreenLiveTV>
+    <keyboard>
+      <menu>Number1</menu>
+	  <left>Number0</left>
+      <right>OSD</right>
+      <rewind>VolumeDown</rewind>
+      <fastforward>VolumeUp</fastforward>
+      <play_pause>Stop</play_pause>	  
+	</keyboard>
+  </FullscreenLiveTV>
+  <tvguide>
+    <keyboard>
+      <fastforward>PageDown</fastforward>
+      <rewind>PageUp</rewind>
+      <play_pause>Stop</play_pause>	  
+    </keyboard>
+  </tvguide>
+  <tvchannels>
+    <keyboard>
+      <fastforward>PageDown</fastforward>
+      <rewind>PageUp</rewind>
+      <play_pause>Stop</play_pause>
+    </keyboard>
+  </tvchannels>
+</keymap>
